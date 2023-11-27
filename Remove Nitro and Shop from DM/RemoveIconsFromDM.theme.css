@@ -1,0 +1,14 @@
+/**
+ * @name Remove Nitro and Shop from DM
+ * @description Remove Nitro ans Shop icons from DM
+ * @author NickMihal
+ * @version 1.00
+ * @source https://github.com/NickMihal/BetterDiscordPlugins/tree/main/Remove%20Nitro%20and%20Shop%20from%20DM
+*/
+
+[data-list-item-id*="__nitro"] {
+    display: none;
+  }
+  [data-list-item-id*="__shop"] {
+    display: none;
+  }
